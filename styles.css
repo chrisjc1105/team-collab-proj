@@ -54,7 +54,7 @@ header {
   border: 0.125rem solid black;
   padding: 1.5rem;
   margin-top: 3.2rem;
-  margin-left: 1.5rem;
+  margin-left: 3.5rem;
   margin-right: 1.5rem;
   width: 50%;
   height: 100%;
@@ -113,6 +113,10 @@ header {
   margin-right: 3.2rem;
   margin-bottom: 0;
   margin-left: 3.2rem;
+}
+
+#mya {
+    margin-bottom: 0;
 }
 
 #wicked_movie {
