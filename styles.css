@@ -1,35 +1,126 @@
-.pfp img {
-    height: 250px;
-    width: 250px;
-    border-radius: 100%;
-    border: 2px solid black;
+html {
+  font-size: 16px;
 }
 
-.pfp div {
+body {
+  background-image: url(https://i.ibb.co/SwtCzJCk/pastel-pink-hand-painted-watercolour-background-1048-1786667d201ddc32f0-jpg-jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.pfp img {
+  height: 15.5rem;
+  width: 15.5rem;
+  border-radius: 100%;
+  border: 0.125rem solid black;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .name_and_quote {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .name_logo {
-    font-family: "Italianno", sans-serif;
-    font-size: 128px;
-    margin-left: 50px;
-    margin-top: 20px;
+  font-family: "Italianno", sans-serif;
+  font-size: 8rem;
+  margin-left: 3.2rem;
+  margin-top: 3.2rem;
 }
 
 .quote {
-    font-size: 20px;
-    margin-top: 25px;
+  font-family: "Josefin Slab", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
+.about_me_and_pics {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_me {
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 1.75rem;
+  background-color: white;
+  border: 0.125rem solid black;
+  padding: 1.5rem;
+  margin-top: 3.2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 50%;
+  height: 100%;
+}
+
+.pics {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_two_pics {
+  display: flex;
+}
+
+.first_two_pics > img {
+  border: .125rem solid black;
+  border-radius: 1.5rem;
+}
+
+.last_two_pics {
+  display: flex;
+  margin-left: 3.2px;
+}
+
+.last_two_pics > img {
+  border: .125rem solid black;
+  border-radius: 1.5rem;
+}
+
+.flora_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flora_section > img {
+  border: .125rem solid black;
+  border-radius: 1.5rem;
+}
+
+.caption {
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 1.5rem;
+}
+
+.large_image {
+  height: 15.5rem;
+  width: 15.5rem;
+  margin: 3.2rem;
+}
+
+.small_image {
+  height: 9.5rem;
+  width: 9.5rem;
+  margin-top: 6.25rem;
+  margin-right: 3.2rem;
+  margin-bottom: 0;
+  margin-left: 3.2rem;
+}
+
+#wicked_movie {
+  margin-top: 3.2rem;
+  margin-left: 6.4rem;
+}
+
+#flora {
+  margin-top: 0;
+  margin-bottom: .6rem;
+}
